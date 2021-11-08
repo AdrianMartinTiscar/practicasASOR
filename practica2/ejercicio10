@@ -1,0 +1,5 @@
+No se puede crear un enlace rigido a un directorio, solo a los ficheros.
+Si se borra un enlace rigido se reduce el número de referencias en el i-nodo.
+Si se borra un enlace simbolico no ocurre nada.
+Si se borra el fichero (y todos sus enlaces rigidos), y queda algun enlace simbolico,
+este estara roto.
